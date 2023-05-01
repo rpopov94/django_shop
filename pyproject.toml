@@ -10,6 +10,7 @@ packages = [{include = "djnago_store"}]
 python = "^3.11"
 django = "^4.2"
 pillow = "^9.5.0"
+python-dotenv = "^1.0.0"
 
 
 [build-system]

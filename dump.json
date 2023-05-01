@@ -1,0 +1,147 @@
+[
+  {
+      "model": "shop.category",
+      "pk": 1,
+      "fields": {
+          "name": "Tee",
+          "slug": "tee"
+      }
+  },
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+    "name": "Pasta",
+      "slug": "pasta"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "name": "Cereals",
+      "slug": "cereals"
+    }
+  },
+  {
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "name": "Flour",
+    "slug": "flour"
+    }
+  },
+  {
+  "model": "shop.category",
+  "pk": 4,
+  "fields": {
+    "name": "Консервы",
+    "slug": "konservy"
+  }
+  },
+  {
+    "model": "shop.category",
+    "pk": 5,
+    "fields": {
+      "name": "Специи и пряности",
+      "slug": "spetsii-i-pryanosti"
+      }
+  },
+  {
+    "model": "shop.category",
+    "pk": 6,
+    "fields": {
+      "name": "Сладости",
+      "slug": "sladosti"
+      }
+  },
+  {
+    "model": "shop.category",
+    "pk": 7,
+    "fields": {
+        "name": "Масла и соусы",
+        "slug": "masla-i-sousy"
+      }
+  },
+  {
+    "model": "shop.category",
+    "pk": 8,
+    "fields": {
+        "name": "Орехи и сухофрукты",
+        "slug": "orekhi-i-sukhofrukty"
+      }
+    },
+
+  {
+    "model": "shop.category",
+    "pk": 9,
+    "fields": {
+      "name": "Хлопья и мюсли",
+      "slug": "khlopya-i-myusli"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 10,
+    "fields": {
+      "name": "Кондитерские изделия",
+      "slug": "konditerskie-izdeliya"
+    }
+  },
+  {
+    "model": "shop.product",
+    "fields": {
+      "category": 2,
+      "name": "Lipton",
+      "slug": "lipton",
+      "image": "products/2023/05/01/lipton.jpg",
+      "description": "Lipton is a brand of black tea that has been enjoyed around the world for over a century. The tea is made from high-quality tea leaves that are carefully selected and blended to create a rich and satisfying flavor. Lipton tea is known for its smooth taste and aroma, and it can be enjoyed hot or cold. In addition to its delicious taste, Lipton tea is also a good source of antioxidants and can provide a range of health benefits when consumed as part of a balanced diet.",
+      "price": "50.00",
+      "available": true,
+      "created": "2023-05-01T08:30:00.000Z",
+      "updated": "2023-05-01T08:30:00.000Z"
+      }
+    },
+  {
+  "model": "shop.product",
+  "fields": {
+    "category": 2,
+    "name": "Twinings",
+    "slug": "twinings",
+    "image": "products/2023/05/01/twinings.jpg",
+    "description": "Twinings is a brand of green tea that is known for its high quality and delicious taste. The tea is made from the finest tea leaves, which are carefully selected and blended to create a unique and refreshing flavor. Twinings green tea is rich in antioxidants, which can help protect against cancer and heart disease, and it also contains caffeine, which can improve mental alertness. The tea is often consumed without any added sweeteners or milk and can be enjoyed hot or cold.",
+    "price": "80.00",
+    "available": true,
+    "created": "2023-05-01T08:30:00.000Z",
+    "updated": "2023-05-01T08:30:00.000Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "fields": {
+      "category": 3,
+      "name": "Lavazza",
+      "slug": "lavazza",
+      "image": "products/2023/05/01/lavazza.jpg",
+      "description": "Lavazza is a brand of premium Italian coffee that is known for its rich and intense flavor. The coffee is made from the finest Arabica and Robusta beans, which are carefully selected and roasted to perfection. Lavazza coffee can be enjoyed in a variety of ways, including as espresso, cappuccino, and latte. The brand also offers a range of blends and roasts to suit different tastes and preferences.",
+      "price": "150.00",
+      "available": true,
+      "created": "2023-05-01T08:30:00.000Z",
+      "updated": "2023-05-01T08:30:00.000Z"
+      }
+    },
+  {
+    "model": "shop.product",
+    "fields": {
+      "category": 4,
+      "name": "Uncle Ben's",
+      "slug": "uncle-bens",
+      "image": "products/2023/05/01/uncle-bens.jpg",
+      "description": "Uncle Ben's is a brand of white rice that is known for its high quality and delicious tast",
+      "price": "150.00",
+      "available": true,
+      "created": "2023-05-01T08:30:00.000Z",
+      "updated": "2023-05-01T08:30:00.000Z"
+    }
+  }
+]
